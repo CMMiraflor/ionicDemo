@@ -1,6 +1,5 @@
 #container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;
@@ -25,3 +24,11 @@
 #container a {
   text-decoration: none;
 }
+.card-image {
+  width: 100%;
+  height: 100px;
+  padding-bottom: 10;
+  object-fit: cover;
+}
+
+
