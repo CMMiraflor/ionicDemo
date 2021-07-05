@@ -1,0 +1,17 @@
+<ion-content>
+  <img src="https://1000logos.net/wp-content/uploads/2019/03/jollibee-logo-png.png">
+  <div class="ion-text-center">
+    <h2 >Welcome to Jolibee App</h2>
+  </div>
+  
+  <ion-item>
+    <ion-input type="email" [(ngModel)]="form.email_address" placeholder="Enter Email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="password" [(ngModel)]="form.password" placeholder="Enter Password"></ion-input>
+  </ion-item>
+
+  <ion-button expand="block" (click)="print()">Continue</ion-button>
+
+</ion-content>
+
