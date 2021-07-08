@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Ghibli films</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <ion-list>
+    <ion-item *ngFor='let film of films'>
+      <ion-label><strong>{{film.title}}</strong></ion-label>
+      <ion-label>({{film.release_date}})</ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
